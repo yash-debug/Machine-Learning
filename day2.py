@@ -15,5 +15,5 @@ while 3 > 2:
         faceonly=y[y1:y1+h,x1:x1+w]
     cv2.imshow('live',y)
     cv2.imshow('face',faceonly)
-    if cv2.waitKey(1) & 0xff == ord('q'):
+    if cv2.waitKey(10) & 0xff == ord('f'):
         break
